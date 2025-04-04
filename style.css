@@ -4,6 +4,7 @@
 }
 .sidebar {
   background-color: rgb(231, 41, 120);
+  height: 100vh;
 }
 .main {
   background-color: white;
