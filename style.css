@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-areas: 30% 70%;
+  grid-template-columns: 20% 80%;
 }
 .sidebar {
   background-color: rgb(231, 41, 120);
