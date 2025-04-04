@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-areas: 30% 70%;
+}
+.sidebar {
+  background-color: rgb(231, 41, 120);
+}
+.main {
+  background-color: white;
+}
