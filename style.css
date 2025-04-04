@@ -3,7 +3,7 @@
   grid-template-columns: 20% 80%;
 }
 .sidebar {
-  background-color: rgb(231, 41, 120);
+  background-color: rgb(231, 41, 41);
   height: 100vh;
 }
 .main {
