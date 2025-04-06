@@ -196,18 +196,12 @@ body {
   margin-bottom: 4px;
 }
 .announcements {
-  display: grid;
   width: 20%;
-  height: 80%;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 35px;
+  height: 70%;
   position: relative;
   left: 75%;
-  top: -84%;
-}
-.announcement-card {
+  top: -80%;
   background-color: white;
-  border-left: 2px solid #74e7cb;
-  border-radius: 10px;
+  border-left: 2px solid hsl(182, 79%, 53%);
+  text-align: center;
 }
