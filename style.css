@@ -48,6 +48,7 @@
 }
 .upper-main {
   background-color: white;
+  border-bottom: 1px solid hsl(0, 0%, 80%);
 }
 .lower-main {
   background-color: hsl(24, 9%, 89%);
@@ -99,13 +100,56 @@ body {
   height: 32px;
   width: 32px;
 }
-.bottom-left-profile {
+.bottom-left-greetings {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  width: 36%;
+  width: 50%;
   position: relative;
-  top: -10%;
-  left: -15%;
+  top: 14%;
+  left: 5%;
+}
+#hi {
+  position: relative;
+  left: 20px;
+}
+#name {
+  position: relative;
+  left: -25px;
+  top: 26px;
+}
+.greetings-image {
+  position: relative;
+  top: -4px;
+}
+.interactive-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  left: 50%;
+  top: -1.5rem;
+  width: 60%;
+}
+.interactive-buttons button {
+  background-color: hsl(48, 94%, 53%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.icon-text2 {
+  display: grid;
+  grid-template-columns: 40px 20px;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 10px;
+  color: white;
+  height: 25%;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 20%;
 }
